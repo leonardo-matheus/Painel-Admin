@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+    height: 100%;}
+
+body{
+    background-color: #111111;
+}
+
+header{
+    background-color: #4CA1FF;
+    padding: 10px 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h3{
+    cursor: pointer;
+}
+
+.logo h3:hover{
+    opacity: 0.7;
+}
+
+.logo-text{
+    font-size: 20px;
+}
+
+.icons-header > i{
+    cursor: pointer;
+}
+
+.icons-header > i:hover{
+    opacity: 0.7;
+}
+
+#search{
+    cursor: pointer;
+}
+
+#search:hover{
+    opacity: 0.7;
+}
+
+.info-header{
+    padding:1 1 10px 10px;
+    color:#eeeeee;
+    display: flex;
+}
+
+.info-header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin:0 15px;
+}
+
+.info-header i{
+    margin: 0 10px;
+}
+
+.icons-header{
+    margin-left: 15px;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.sidebar{
+    width: 20%;
+    background-color: #ffffff;
+    height: 100%;
+    border-right: #acacac 2px solid;
+}
+
+.sidebar h3{
+    color: #1b1b1b;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.sidebar a.sidebar-active{
+    border-left: #4CA1FF 4px solid;
+    background-color: #EFEFEF;
+    color: #858585;
+    font-weight: bold;
+}
+
+.sidebar a.sidebar-active > svg{
+    color: #a0a0a0
+}
+
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: rgb(65, 65, 65);
+}
+
+.sidebar a:hover{
+    border-left: #4CA1FF 4px solid;
+    background-color: #EFEFEF;
+    color: #858585;
+    font-weight: bold;
+}
+
+.sidebar a:hover .sidebar a > svg{
+    color: #a0a0a0
+}
+
+.sidebar-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content{
+    width: 80%;
+    background-color: #F5F6F9;
+    padding: 20px;
+}
+
+.titulo-secao{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.titulo-secao h2{
+    font-size: 19px;
+}
+
+.titulo-secao p{
+    font-size: 14px;
+}
+
+.titulo-secao i{
+    color: #4CA1FF;
+}
