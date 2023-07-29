@@ -100,6 +100,7 @@ header{
 
 .sidebar a{
     display: block;
+    justify-content: center;
     text-decoration: none;
     padding: 10px 15px;
     color: rgb(65, 65, 65);
@@ -114,6 +115,14 @@ header{
 
 .sidebar a:hover .sidebar a > svg{
     color: #a0a0a0
+
+}
+
+.sidebar-items i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: left;
 }
 
 .sidebar-items{
@@ -121,6 +130,12 @@ header{
     flex-direction: column;
     justify-content: center;
 }
+
+.sidebar-items > svg{
+    width: 15px;
+    height: 15px;
+}
+
 
 .content{
     width: 80%;
