@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 html,body{
@@ -106,7 +106,7 @@ header{
     color: rgb(65, 65, 65);
 }
 
-.sidebar a:hover{
+.sidebar-itens a:hover {
     border-left: #4CA1FF 4px solid;
     background-color: #EFEFEF;
     color: #858585;
@@ -118,14 +118,13 @@ header{
 
 }
 
-.sidebar-items i{
-    display: inline-block;
+.sidebar-itens i{
     width: 20px;
-    height: 20px;
-    text-align: left;
+    text-align: center;
+    margin-right: 10px;
 }
 
-.sidebar-items{
+.sidebar-itens {
     display: flex;
     flex-direction: column;
     justify-content: center;
